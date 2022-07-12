@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pycart"
+version = "0.1.0"
+description = ""
+authors = ["Sangayya"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+pandas = "^1.4.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
